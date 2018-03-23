@@ -82,6 +82,7 @@ public class MyInitServlet extends HttpServlet {
 		// Put your code here
 		System.out.println("init process 1 reload start..");
 		System.out.println("create db");
+		System.out.println("test of the githup");
 		SendEmailThread sendEmailThread = new SendEmailThread();
 		sendEmailThread.start();
 		
